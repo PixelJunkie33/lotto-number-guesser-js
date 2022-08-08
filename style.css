@@ -1,0 +1,41 @@
+html { 
+    font-size: 20px;
+}
+
+.lotto-container {
+    width: 68rem;
+    height: 38rem;
+    background-color: rgb(248, 243, 236);
+}
+
+#powerball1,
+#powerball2,
+#powerball3,
+#powerball4,
+#powerball5,
+#pick6
+{
+    margin-top: 15rem;
+    margin-left: -3rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.button {
+    border-radius: 1rem;
+    width: 17rem;
+    height: 4rem;
+    transition-duration: 0.4s;
+    margin-top: 1.5rem;
+    justify-self: center;
+}
+
+.lotto-ball-area {
+    display: flex;
+    justify-content: space-evenly;
+    width: 54rem;
+}
